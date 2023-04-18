@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bogosort Visualisation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Bogosort Algorithm Visualisation</h1>
+  <div class="input-container">
+    <label for="integer-list">Enter a list of integers:</label>
+    <input type="text" id="integer-list" placeholder="e.g. 3, 5, 2, 1">
+    <button onclick="startSorting()">Sort</button>
+  </div>
+  <div class="visualization-container">
+    <canvas id="visualization"></canvas>
+  </div>
+  <p>Iteration count: <span id="iteration-count">0</span></p>
+  <script src="script.js"></script>
+</body>
+</html>

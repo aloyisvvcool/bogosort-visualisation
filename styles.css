@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .visualization-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  canvas {
+    border: 1px solid black;
+  }
+  
